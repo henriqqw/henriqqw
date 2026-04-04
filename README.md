@@ -61,6 +61,8 @@ class CaosDev:
 </div>
 
 <div align="center">
+  
+![skull_glitch2](https://github.com/user-attachments/assets/4799b049-d225-457d-bdc5-a7fab6ee4444)
 
 > AI Developer focused on security, system design, and automation.
 > Building platforms, tools, and experiments around modern web systems and emerging attack surfaces.
