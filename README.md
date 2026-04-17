@@ -20,14 +20,14 @@
 <h2>caosdev@root:~$ python whoami.py</h2>
 
 ```python
-class CaosDev:
+class caosdev:
     def __init__(self):
         self.name = "Henrique Lanzoni"
-        self.role = "AI Developer | Security Enthusiast"
+        self.role = "Full Stack Developer | Security Enthusiast"
         self.languages = ["pt_BR", "id_ID"]
         self.focus = [
             "Machine Learning",
-            "Full Stack Development",
+            "WebScraping",
             "Offensive Security"
         ]
 ```
