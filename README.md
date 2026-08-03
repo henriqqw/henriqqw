@@ -12,7 +12,7 @@
 class caosdev:
     def __init__(self):
         self.name = "Henrique Lanzoni"
-        self.role = "Full Stack Developer | Security Enthusiast"
+        self.role = "FullStack Software Engineer | Security Enthusiast"
         self.languages = ["pt_BR", "id_ID"]
         self.focus = [
             "Machine Learning",
