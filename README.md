@@ -1,28 +1,51 @@
- 
-
-</pre>
+ </pre>
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<h2>lanzoni@root:~$ python whoami.py</h2>
+<h2>lanzoni@root:~$ go run whoami.go</h2>
 
-```python
-class caosdev:
-    def __init__(self):
-        self.name = "Henrique Lanzoni"
-        self.role = "FullStack Software Engineer | Security Enthusiast"
-        self.languages = ["pt_BR", "id_ID"]
-        self.focus = [
-            "Machine Learning",
-            "WebScraping",
-            "Offensive Security"
-        ]
+```go
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+type Developer struct {
+	Name      string
+	Role      string
+	Languages []string
+	Focus     []string
+}
+
+func main() {
+	profile := Developer{
+		Name:      "Henrique Lanzoni",
+		Role:      "FullStack Software Engineer | Security Enthusiast",
+		Languages: []string{"pt_BR", "id_ID"},
+		Focus: []string{
+			"Machine Learning",
+			"WebScraping",
+			"Offensive Security",
+		},
+	}
+
+	fmt.Printf(
+		"Name: %s\nRole: %s\nLanguages: %s\nFocus: %s\n",
+		profile.Name,
+		profile.Role,
+		strings.Join(profile.Languages, ", "),
+		strings.Join(profile.Focus, ", "),
+	)
+}
 ```
 
 <div align="center">
-
+ 
+![Golang](https://img.shields.io/badge/golang-000000?style=for-the-badge&logo=go&logoColor=00ADD8)
 ![Python](https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=FFFFFF)
 ![JavaScript](https://img.shields.io/badge/javascript-000000?style=for-the-badge&logo=javascript&logoColor=FFFFFF)
 ![TypeScript](https://img.shields.io/badge/typescript-000000?style=for-the-badge&logo=typescript&logoColor=FFFFFF)
