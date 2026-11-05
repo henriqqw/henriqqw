@@ -7,7 +7,7 @@
 
 <div align="center">
 
-> Full Stack Software Engineer focused on performance, scalability, offensive security, system design, and automation.
+> Full Stack Software Engineer focused on performance, scalability, cybersecurity, system design, and automation.
 > Building platforms, tools, and experiments around modern web systems and emerging attack surfaces.
 
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=henriqqw&style=flat-square&color=red)
